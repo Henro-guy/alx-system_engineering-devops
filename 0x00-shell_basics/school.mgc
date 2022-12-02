@@ -1,2 +1,2 @@
 #!/bin/bash
-file -mc school = "SCHOOL"
+file -Cm school
