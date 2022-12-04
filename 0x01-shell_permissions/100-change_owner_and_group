@@ -1,2 +1,2 @@
 #!/bin/bash
-chown/chgrp vincent/staff .
+chown/chgrp -a vincent/staff .
