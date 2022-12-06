@@ -1,2 +1,2 @@
 #!/bin/bash
-find -name "!./..*" -type d print |wc -la|
+find . -not -name '.' -type d | wc -la
