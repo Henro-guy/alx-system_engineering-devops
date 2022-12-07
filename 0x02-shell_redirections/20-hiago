@@ -1,2 +1,2 @@
 #!/bin/bash
-mv "c" "C"
+rm "c" "C"
