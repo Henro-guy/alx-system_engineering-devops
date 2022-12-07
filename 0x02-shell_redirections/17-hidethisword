@@ -1,0 +1,2 @@
+#!/bin/bash
+grep -i -name "!bin" -type f /etc/passwd 
