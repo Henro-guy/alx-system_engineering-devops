@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -i '^[abc]*' '[[:upper:]]' /etc/ssh/sshd_config 
+grep -i "^[abc]" /etc/ssh/sshd_config 
