@@ -1,2 +1,2 @@
 #!/bin/bash
-bconvert.sh -i 2 $BINARY
+awklib 'BEGIN {print base_conv($BINARY, 2)}'
