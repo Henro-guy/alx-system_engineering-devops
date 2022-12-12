@@ -1,2 +1,2 @@
 #!/bin/bash
-echo '$BINARY; obase=10' | bc
+bconvert.sh -i 2 $BINARY
