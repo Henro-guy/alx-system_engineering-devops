@@ -1,2 +1,2 @@
 #!/bin/bash
-awklib 'BEGIN {print base_conv($BINARY, 2)}'
+awklib '{print base_conv ($BINARY, 2)}'
