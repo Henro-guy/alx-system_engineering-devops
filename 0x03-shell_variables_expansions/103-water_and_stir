@@ -1,2 +1,2 @@
 #!/bin/bash
-printf %o $(($((5#$(echo $WATER | tr '01234' 'water'))) + $((5#$(echo $STIR | tr '01234' 'stir.'))))) | tr '01234567' 'bestchol'
+echo $(printf %o $(($((5#$(echo $WATER | tr '01234' 'water'))) + $((5#$(echo $STIR | tr '01234' 'stir.'))))) | tr '01234567' 'bestchol')
